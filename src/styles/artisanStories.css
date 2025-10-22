@@ -1,0 +1,64 @@
+.artisanStories-content{
+    display: flex;
+    gap: 5px;
+    margin: 0 5px;
+    justify-content: center;
+
+}
+.artisanStories{
+    text-align: center;
+}
+.artisanStories h3{
+    width: 60%;
+    line-height: 1.5rem;
+    font-size: 23px;
+    margin: 20px auto;
+    font-weight: 600;
+    direction: rtl;
+}
+.artisanStories .theStory{
+    width: 40%;
+    height: 100%;
+    font-size: 1.1rem;
+    direction: rtl;
+    /* color: #383838;
+    text-align: right; */
+    /* line-height: 1.8rem; */
+    margin: 0;
+    transition: background-color 0.4s ease;
+}
+/* .artisanStories .theStory:hover{
+    color: #fff;
+    background-color: #333131;
+} */
+
+.artisanStories h5{
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    direction: rtl;
+    padding: 1.67em 0;
+    transition: background-color 0.4s ease;
+
+}
+/* .artisanStories h5:hover{
+    background-color: rgb(243, 213, 178);
+} */
+.artisan-story{
+    direction: rtl;
+    display: flex;
+    width: 33%;
+    border: 2px solid #5f5e5e;
+
+}
+.theStory p{
+    color: #383838;
+    font-size: 1.1rem;
+    margin: 0 10px 0 0;
+    padding: 0;
+    line-height: 1.8rem;
+}
+.artisan-story img{
+    width: 60%;
+    height: 100%;
+}

@@ -1,0 +1,116 @@
+.artisanat-categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.1rem;
+  background-color: #fdf6ec; 
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.artisanat-categories li {
+  padding: 0;
+  border-bottom: 1px solid #e0d4b7;
+  color: #5c3d2e; /* لون بني تراثي */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ 
+}
+.artisanat-categories .category-link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 12px 16px;
+  /* border-bottom: 1px solid #e0d4b7; */
+  color: #5c3d2e; /* لون بني تراثي */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.artisanat-categories li:hover {
+  background-color: #f0e4d1;
+}
+.categories{
+  direction: rtl;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+/* .artisanat-categories .category-link{
+  text-decoration: none;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0d4b7;
+  color: #5c3d2e; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+} */
+
+.categories-header {
+  display: flex;
+  align-items: center;
+  transition: gap 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+/* عند الإغلاق: الأيقونة تقترب من الكلمة */
+.categories-header.closed {
+  gap: 8px;
+}
+
+.categories-header.open {
+  gap: 24px;
+  justify-content: space-between;
+  
+}
+
+/* حركة إضافية للأيقونة */
+.menu-icon {
+  transition: transform 0.3s ease;
+}
+
+.categories-header.open .menu-icon {
+  transform: translateX(40%); /* تبتعد قليلاً */
+}
+
+.categories-header.closed .menu-icon {
+  transform: translateX(-2px); /* تقترب قليلاً */
+}
+
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 10px;
+}
+.menu-icon:hover  {
+  background-color:rgba(0,0,0,0.1);
+}
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 2px;
+}
+.category-wrapper {
+  overflow: hidden;
+  max-width: 0%;
+  transition: max-width 0.4s ease-in-out;
+  white-space: nowrap;
+}
+
+.category-wrapper.open {
+  max-width: 100%; 
+}
+ 
+

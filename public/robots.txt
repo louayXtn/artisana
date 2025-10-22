@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+Disallow: /delete-product
+Allow: /
+
+Sitemap: https://artisana.onrender.com/sitemap.xml 

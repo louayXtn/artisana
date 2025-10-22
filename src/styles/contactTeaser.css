@@ -1,0 +1,123 @@
+.contactTeaser-container{
+    position: relative;
+    display: flex;
+    direction: rtl;
+}
+
+#contact .title-container{
+    margin: 20px 120px 20px 0 ;
+    text-align: right;
+
+}
+#contact .title-container::after {
+    margin: 0 0 0 auto;
+  
+  }
+.contactTeaser-container .title-container::after{
+    margin-right:15px ;
+}
+.contactTeaser-container img{
+    height: calc(100vh - (30vh + 85px));
+    width: 40%;
+    margin: 0 80px 0 15px;
+    
+}
+.contactTeaser-content{
+    width: 60%;
+    direction: rtl;
+    text-align: right;
+}
+.contact-sources{
+    display: flex;
+}
+.our-link{
+    width: 40%;
+}
+.our-link h2{
+    margin-top: 60px;
+}
+.our-link p{
+    color: #2c2b2b;
+    line-height: 25px;
+    text-align: right;
+    font-size: 1.1rem;
+}
+.socialIcons{
+    margin-top: 5px;
+    margin-right: 20%;
+}
+.my-social-icon{
+    color: #fff;
+    transition: transform 0.3s ease;
+    
+}
+.my-social-icon:hover{
+    transform: scale(1.1);
+}
+
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+
+  background-color: inherit;
+  margin:20px 20px 0 0;
+  width: 60%;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 0;
+  border-bottom: 1px solid #272727;
+  border-radius: 4px;
+  background-color: inherit;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+.site-footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:64% ;
+}
+.site-footer p {
+    color: #000;
+    font-size: 1.1rem;
+    /* margin: 0; */
+    text-align: right;
+}
+#contact .site-footer .hide-on-mobile{
+    margin-right: 80px;
+}
+.site-footer :first-child {
+    margin: 0 30px 0 0;
+}
+.site-footer :last-child{
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: 100;
+    color: #2c2b2b;
+}

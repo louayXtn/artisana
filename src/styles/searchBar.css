@@ -1,0 +1,41 @@
+.search-bar {
+  position: relative;
+  width: 200px;
+  padding: 0;
+}
+
+.search-bar input {
+  /* padding: 6px 10px; */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: inherit;
+  
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  width: 100%;
+  z-index: 10;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 20px;
+}
+
+.search-dropdown li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.search-dropdown img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}

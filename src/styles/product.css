@@ -1,0 +1,17 @@
+.product-page{
+    text-align: center;
+    margin-top: 70px;
+}
+.product-page
+img{
+    height: auto;
+    width: auto;
+}
+.product-page button{
+    width: 10%;
+    text-align:center;
+    display: block;
+    margin: 10px auto;
+    height: 45px;
+    
+}

@@ -1,0 +1,39 @@
+/* aboutSection.css */
+#about {
+  padding-bottom:2vh;
+}
+
+#about .about-container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  direction: rtl;
+  gap: 20px;
+  justify-content: space-around;
+}
+.about-text:first-child::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #c19a6b;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+#about .about-img {
+  width: 40%;
+  height: 80vh;
+  border-radius: 10px;
+}
+#about h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#about p {
+  font-size: 25px;
+  color: rgb(41, 40, 40);
+  line-height: 1.8;
+  margin: 45px 0px;
+}

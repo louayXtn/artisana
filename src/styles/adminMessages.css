@@ -1,0 +1,50 @@
+.admin-messages-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-messages-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+.message-card {
+  background-color: #fff;
+  border-left: 6px solid #4CAF50;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.message-card:hover {
+  transform: scale(1.01);
+}
+
+.message-card p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.message-card p strong {
+  color: #222;
+}
+
+.error {
+  color: #d32f2f;
+  background-color: #ffe6e6;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
