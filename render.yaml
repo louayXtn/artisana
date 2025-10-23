@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: artisana
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    rootDir: .
+    envVars:
+      - key: VITE_BASE_URL
+        value: https://artisana-api.onrender.com
+      - key: VITE_NODE_ENV
+        value: production
+    nodeVersion: 20
