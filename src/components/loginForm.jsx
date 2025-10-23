@@ -1,5 +1,5 @@
 import  { useState } from 'react'
-import { useLoginMutation } from '../redux/features/auth/authApislice'
+import { useLoginMutation } from '../redux/features/auth/authApiSlice'
 import Cookies from 'js-cookie'
 import { useNavigate } from 'react-router-dom'
 
