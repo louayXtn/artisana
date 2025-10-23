@@ -4,5 +4,5 @@ services:
     env: node
     rootDir: .
     nodeVersion: 22.12.0
-    buildCommand: npm install vite && npm install && npm run build
+    buildCommand: npm install && npm run build
     startCommand: npm run preview
