@@ -1,5 +1,5 @@
 import {useState ,useEffect, use} from 'react';
-import '../styles/CartPage.css';
+import '../styles/cartPage.css';
 import OrderModal from '../components/OrderModel';
 import { getImageSrc } from '../utils/imageUtils';
 import { useNavigate } from 'react-router-dom';
