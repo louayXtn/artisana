@@ -10,4 +10,4 @@ services:
         value: https://artisana-api.onrender.com
       - key: VITE_NODE_ENV
         value: production
-    nodeVersion: 20
+    nodeVersion: 22.12.0
