@@ -2,7 +2,7 @@ services:
   - type: web
     name: artisana
     env: node
-    buildCommand: npm install vite && npm run build
-    startCommand: npm run preview
     rootDir: .
     nodeVersion: 22.12.0
+    buildCommand: npm install vite && npm install && npm run build
+    startCommand: npm run preview
