@@ -5,4 +5,4 @@ services:
     rootDir: .
     nodeVersion: 22.12.0
     buildCommand: npm install && npm run build
-    startCommand: npm run preview
+    startCommand: serve -s dist
