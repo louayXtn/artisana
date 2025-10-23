@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useState } from "react";
 import  fetchWithAuth  from '../utils/fetchWithAuth'; // تأكد أن المسار صحيح
-import '../styles/AddProduct.css'
+import '../styles/addProduct.css'
 export default function AddProduct() {
   const user = getUserFromToken();
   const navigate = useNavigate();
