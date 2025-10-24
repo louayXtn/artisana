@@ -62,6 +62,14 @@ body {
     transition: background-color 0.3s 
 ease;
 }
+a.shop-button{
+  background-color: #85c276;
+  color: #333;
+  font-size: 18px;
+}
+a.shop-button:hover{
+  background-color: #6fae5a;
+}
   .logo img{
     width: 100%;
     height: 100%;
@@ -149,7 +157,7 @@ ease;
   }
 
 /* sectionproducts   */
-.product-display-link h2 , .product-display-link p , .product-display-link .rating {
+a.product-display-link h2 , a.product-display-link p , a.product-display-link .rating {
   margin: 3px 0;
 
 }
