@@ -15,6 +15,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { scroller } from 'react-scroll';
 import ArtisanStories from '../components/artisanStories'
 import ContactTeaser from '../components/contactTeaser'
+import SmartImage from '../components/SmartImage';
 // import SearchBar from '../components/searchBar';
 const Home = ({setCartItems}) => {
   const location = useLocation();
@@ -43,28 +44,28 @@ return(
           <div className='home-title'>
             <h1 className='hero-title'>
         إكتشف عبق    الأصالة في كل منتج</h1>
-            <img src={myLogo} alt="logo" className='home-logo'/>
+            <SmartImage src={myLogo} alt="logo" className='home-logo'/>
             <a href="/products" className='shop-button'>تسوق الآن</a>
           </div>
           <div className="hero-section">
-            <img src={homeImage} alt="homeImage" />
+            <SmartImage src={homeImage} alt="homeImage" />
           </div>
         </div>
         <div className="categories-section">
             <a href="/category/parfums" className="category-box">
-              <img src={categImg1}  alt="بخور وعطور" />
+              <SmartImage src={categImg1}  alt="بخور وعطور" />
             </a>
 
             <a href="/category/vetments" className="category-box">
-              <img src={categImg2} alt="يدوية" />
+              <SmartImage src={categImg2} alt="يدوية" />
             </a>
 
             <a href="category/ceramique" className="category-box">
-              <img src={categoryImg3}  alt="discounts"/>
+              <SmartImage src={categoryImg3}  alt="discounts"/>
             </a>
 
             <a href="/category/bags" className="category-box">
-              <img src={categoriesImg4}  alt="الحقائب" />
+              <SmartImage src={categoriesImg4}  alt="الحقائب" />
             </a>
         </div>
       </section>

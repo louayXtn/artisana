@@ -3,6 +3,7 @@ import artisanBags from '../images/artisanBags.jpeg'
 import artisanSculptor from '../images/artisanSculptor.jpeg'
 import artisanSewing from '../images/artisanSewing.jpeg'
 import '../styles/artisanStories.css'
+import SmartImage from './SmartImage';
 const artisanStories = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const artisanStories = () => {
  الحرفة أكثر من مجرد عمل. كانت لغة، تراث، وذاكرة. </h3>
       <div className='artisanStories-content'>
         <div className='artisan-story'>
-            <img src={artisanBags} alt="" />
+            <SmartImage src={artisanBags} alt=" ظفر السعف" />
               <div className='theStory'>
                 <h5>🌴 ظفر السعف:</h5><p>السعف اليابس، وقت يدخل يد الحرفي، يولي مضلة تردّ الشمس وسلّة تشيل الخير.  
 كل ظفيرة فيها صبر، وكل شكل فيه هندسة من قلب النخلة.
@@ -24,7 +25,7 @@ const artisanStories = () => {
             
         </div>
         <div className='artisan-story'>
-            <img src={artisanSewing} alt="" />
+            <SmartImage src={artisanSewing} alt="التطريز" />
               <div className='theStory'><h5>🧵 التطريز:</h5><p> غرزة وراء غرزة، القماش الأبيض يولي حكاية فيها وردة وهلال ونجمة.  
 الإبرة ما تخيطش وحدها، تخيط بالنية، والنية تزيّن القماش وتخلّي فيه روح.
 </p>
@@ -33,7 +34,7 @@ const artisanStories = () => {
             
         </div>
         <div className='artisan-story'>
-            <img src={artisanSculptor} alt="" />
+            <SmartImage src={artisanSculptor} alt="النحت والزخرفة:" />
             
             <div className='theStory'><h5>🪵 النحت والزخرفة:</h5><p>الخشب الصامت يبدأ يحكي وقت تنقش عليه يد تعرف السرّ.  
 كل نقشة فيها وردة، طير، أو نجمة، وكل باب منحوت يفتح على ذاكرة تونس.</p></div>

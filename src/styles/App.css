@@ -197,6 +197,7 @@ div.title-container h1{
   }
   #artisanSection .artisan-story {
     width: auto;
+    height: 270px;
   }
   #artisanSection h3{
     font-size: 1.4rem;
@@ -207,11 +208,11 @@ div.title-container h1{
     font-size: 16px;
     margin: 0 2px;
     line-height: 1.3;
-    width: auto;
+    width: 50%;
   }
-  #artisanSection .artisan-story img{
-    width: 54%;
-    height: 250px;
+  #artisanSection .artisan-story picture{
+    width: 50%;
+    /* height: 250px; */
     
   }
   #artisanSection p{

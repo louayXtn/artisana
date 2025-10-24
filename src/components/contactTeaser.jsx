@@ -4,6 +4,7 @@ import contactTeaserImg from '../images/contactTeaserImg.jpeg'
 import { SocialIcon } from 'react-social-icons';
 import { useState } from 'react';
 import axios from 'axios';
+import SmartImage from './SmartImage';
 const contactTeaser = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
@@ -44,7 +45,7 @@ const contactTeaser = () => {
             <h1>اتصل بنا</h1>
           </div>
       <div className='contactTeaser-container'>
-        <img src={contactTeaserImg} alt="contactTeaserImg" />
+        <SmartImage src={contactTeaserImg} alt="contactTeaserImg" />
         <div className='contactTeaser-content'>
           <div className='contact-sources'>
             <div className='our-link'>
