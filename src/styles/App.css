@@ -79,6 +79,9 @@ a.shop-button:hover{
   .hero-section{
     display: none;
   }
+  .product-card .addTo-cart-btn ,.product-card .buy-btn{
+    padding: 10px;
+  }
   .home-page .categories-section{
     display: none;
   }
@@ -158,7 +161,7 @@ a.shop-button:hover{
 
 /* sectionproducts   */
 a.product-display-link h2 , a.product-display-link p , a.product-display-link .rating {
-  margin: 3px 0;
+  margin: 4px 0;
 
 }
 section .products-wrapper{
@@ -170,8 +173,14 @@ div.title-container h1{
 }
 .products-grid .product-card{
   /* width: 106px; */
+  
   width: 40%;
-  height: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  /* height: 322px; */
   margin: 10px 1px;
   padding: 5px;}
   /* section about */
@@ -180,6 +189,11 @@ div.title-container h1{
     align-items: center;
     text-align: center;
     
+  }
+  .products-grid .product-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
   }
   #about .about-container img{
     width: 90%;
