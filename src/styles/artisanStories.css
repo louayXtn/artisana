@@ -13,7 +13,7 @@
     line-height: 1.5rem;
     font-size: 23px;
     margin: 20px auto;
-    font-weight: 600;
+    /* font-weight: 600; */
     direction: rtl;
 }
 .artisanStories .theStory{
@@ -31,10 +31,10 @@
     color: #fff;
     background-color: #333131;
 } */
-.artisanStories picture{
+/* .artisanStories picture{
     width: 60%;
     height: 100%;
-}
+} */
 .artisanStories h5{
     text-align: center;
     margin: 0;
@@ -62,6 +62,6 @@
     line-height: 1.8rem;
 }
 .artisan-story img{
-    width: 100%;
+    width: 60%;
     height: 100%;
 }

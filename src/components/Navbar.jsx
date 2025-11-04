@@ -11,7 +11,7 @@ import{ useEffect } from'react';
 import { getUserFromToken } from '../utils/authUtils';
 import SearchBar from './searchBar';
 import { getImageSrc } from '../utils/imageUtils';
-
+import SmartImage from './SmartImage';
 const CartHeader = ({ cartItems, setCartItems }) => {
   
   const [isOpen, setIsOpen] = useState(false);
@@ -171,7 +171,7 @@ useEffect(() => {
     <>
       <nav className="navbar">
         <div className="logo">
-          <img src={logo} alt="Logo" />
+          <SmartImage src={logo} alt="Logo" />
         </div>
 
         <ul className="nav-links">

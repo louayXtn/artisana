@@ -222,7 +222,7 @@ div.title-container h1{
     height: 270px;
   }
   #artisanSection h3{
-    font-size: 1.4rem;
+    font-size: 16px;
     margin: 15px 5px;
     line-height: 1.4;
     width: auto;}
@@ -232,11 +232,14 @@ div.title-container h1{
     line-height: 1.3;
     width: 50%;
   }
-  #artisanSection .artisan-story picture{
+  /* #artisanSection .artisan-story picture{
     width: 50%;
-    /* height: 250px; */
     
-  }
+    
+  } */
+   #artisanSection .artisan-story img{
+    width: 50%}
+
   #artisanSection p{
     margin-right: 3px;
     font-size: 16px;
